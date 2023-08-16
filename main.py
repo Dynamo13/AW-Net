@@ -26,10 +26,10 @@ def main(input_dir, mask_dir, image_height, image_width, image_channel, num_clas
     val_mask_img_paths = mask_img_paths[-val_samples:]
 
     # Instantiate data Sequences for each split
-    train_gen = SpinePTXT(
+    train_gen = Loader(
         batch_size, img_size, train_input_img_paths, train_mask_img_paths,num_classes
     )
-    val_gen = SpinePTXT(batch_size, img_size, val_input_img_paths, val_mask_img_paths,num_classes)
+    val_gen = Loader(batch_size, img_size, val_input_img_paths, val_mask_img_paths,num_classes)
     
     model=AW_Net((image_height,image_width,image_channel),num_classes, dropout_rate=0.0, batch_norm=True)
 
