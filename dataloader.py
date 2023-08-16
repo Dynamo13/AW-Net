@@ -1,7 +1,7 @@
 import keras
 import numpy as np
 
-class SpinePTXT(keras.utils.Sequence):
+class Loader(keras.utils.Sequence):
     """Helper to iterate over the data (as Numpy arrays)."""
 
     def __init__(self, batch_size, img_size, input_img_paths, mask_img_paths,num_classes):
