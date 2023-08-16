@@ -13,3 +13,16 @@ The datasets used in the paper can be downloaded from the links below:
 - [RSNA Cervical Spine 2022](https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection)
 - [Duke Breast Cancer MRI](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70226903)
 - [QIN Breast](https://wiki.cancerimagingarchive.net/display/Public/QIN-Breast)
+  
+The pre-processed version of BraTS2020 dataset can be accesed here [link](https://drive.google.com/drive/folders/1QI2emvmu4o9_WgyIoDkic3m7OVUpvfvT).
+
+## Code Implementation
+
+### Requirements
+
+The code is developed on tensorflow. There is a **requirement.txt** file. Run ```pip install -r requirements.txt``` under AW-Net/ to install the required python packages.
+
+### Training
+
+In order to train the AW-Net model, type ```python train.py``` in the command prompt. 
+Otherwise follow **_____.ipnyb**.
