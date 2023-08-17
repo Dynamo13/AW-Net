@@ -20,9 +20,17 @@ The pre-processed version of BraTS2020 dataset can be accesed here [link](https:
 
 ### Requirements
 
-The code is developed on tensorflow. There is a **requirement.txt** file. Run ```pip install -r requirements.txt``` under AW-Net/ to install the required python packages.
+The code is developed on tensorflow. In order to run the script file follow the instructions below:
+- Create a new environment using ```python -m /path/to/env```
+- Fork the repository. Move the AW-Net folder to the new environment folder i.e. /path/to/env
+- Use command ```cd /path/to/env/AW-Net``` in the command prompt to access the files
+- There is a **requirement.txt** file. Run ```pip install -r requirements.txt``` in the command prompt to install the required python packages.
 
-### Training
+### Network Training
+- In order to train the AW-Net model, run
+     ```
+     cd /path/to/env/AW-Net
+     python main.py arg1<space>arg2<arg3>
+     ```
+   The saved weights will be stored under the path /path/to/env/AW-Net/data/weights as .h5 file 
 
-In order to train the AW-Net model, type ```python train.py``` in the command prompt. 
-Otherwise follow **_____.ipnyb**.
