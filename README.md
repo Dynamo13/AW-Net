@@ -47,7 +47,7 @@ The [main.py](AW-Net/main.py) contains script file to run the model. The followi
   model=AW_Net((image_height,image_width,image_channel),num_classes, dropout_rate=0.0, batch_norm=True)
   model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accuracy'])
   model.load_weights('path/to/env/AW-Net/data/weights/weights.h5')
-  test_image = np.load('image/path')
+  test_image = np.load('path/to/env/AW-Net/Data/Image/0.npy')
   predicted_image=model.predict(test_image.reshape(1,image_height,image_width,image_channel))
   plt.imshow(np.argmax(predicted_image,axis=-1))
   ```
