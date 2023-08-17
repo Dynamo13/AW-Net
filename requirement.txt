@@ -2,3 +2,4 @@ tensorflow==2.10.1
 keras==2.10.0
 numpy==1.24.3
 os
+matplotlib
