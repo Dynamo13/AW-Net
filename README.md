@@ -53,4 +53,4 @@ The [main.py](AW-Net/main.py) contains script file to run the model. The followi
   ```
   Set image_height = 128, image_width = 128, image_channel = 3, num_classes = 4 for BraTS2020 data.
   
-##Citation
+## Citation
