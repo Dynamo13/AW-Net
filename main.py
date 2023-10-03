@@ -27,8 +27,9 @@ def main(input_dir, mask_dir,weight_dir,
         for fname in os.listdir(mask_dir)
     ]
     )
-    random.Random(1337).shuffle(input_img_paths)
-    random.Random(1337).shuffle(mask_img_paths)
+    joined_list=list(zip(input_img_paths, mask_img_paths))
+    random.Random(1337).shuffle(joined_list)
+    input_img_paths, mask_img_paths = zip(*joined_list)
     train_input_img_paths = input_img_paths[:-val_samples]
     train_mask_img_paths = mask_img_paths[:-val_samples]
     val_input_img_paths = input_img_paths[-val_samples:]
