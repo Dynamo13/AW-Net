@@ -1,5 +1,5 @@
 # AW-Net: A Novel Fully Connected Attention-based Medical Image Segmentation Model
-This repository contains the official codebase of AW-Net [paper]( https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Pal_AW-Net_A_Novel_Fully_Connected_Attention-Based_Medical_Image_Segmentation_Model_ICCVW_2023_paper.pdf) which was accepted in ICCV workshop 2023. AW-Net focuses on segmenting multimodal medical images such as MRI, PET, and CT scan images for multiple organs such as brain, breast, and spine. 
+This repository contains the official codebase of [AW-Net]( https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Pal_AW-Net_A_Novel_Fully_Connected_Attention-Based_Medical_Image_Segmentation_Model_ICCVW_2023_paper.pdf) which was accepted in ICCV workshop 2023. AW-Net focuses on segmenting multimodal medical images such as MRI, PET, and CT scan images for multiple organs such as brain, breast, and spine. 
 
 
 ## Overview
@@ -53,4 +53,21 @@ The [main.py](AW-Net/main.py) contains script file to run the model. The followi
   ```
   Set image_height = 128, image_width = 128, image_channel = 3, num_classes = 4 for BraTS2020 data.
   
-## Citation
+ ## Citation
+ If this code is used for research, please cite our paper:
+   ### MLA
+   ```
+   Pal, Debojyoti, et al. "AW-Net: A Novel Fully Connected Attention-Based Medical Image Segmentation Model." Proceedings of the IEEE/CVF International 
+   Conference on Computer Vision. 2023.
+   ```
+   ### Bibtex
+   ```
+   @inproceedings{pal2023aw,
+   title={AW-Net: A Novel Fully Connected Attention-Based Medical Image Segmentation Model},
+   author={Pal, Debojyoti and Meena, Tanushree and Mahapatra, Dwarikanath and Roy, Sudipta},
+   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+   pages={2532--2541},
+   year={2023}
+   }
+   ```
+ 
