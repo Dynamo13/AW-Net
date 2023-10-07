@@ -1,5 +1,5 @@
 # AW-Net: A Novel Fully Connected Attention-based Medical Image Segmentation Model
-This repository contains the official codebase of AW-Net which was accepted in ICCV workshop 2023. AW-Net focuses on segmenting multimodal medical images such as MRI, PET, and CT scan images for multiple organs such as brain, breast, and spine. 
+This repository contains the official codebase of AW-Net [paper]( https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/papers/Pal_AW-Net_A_Novel_Fully_Connected_Attention-Based_Medical_Image_Segmentation_Model_ICCVW_2023_paper.pdf) which was accepted in ICCV workshop 2023. AW-Net focuses on segmenting multimodal medical images such as MRI, PET, and CT scan images for multiple organs such as brain, breast, and spine. 
 
 
 ## Overview
